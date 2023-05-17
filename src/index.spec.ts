@@ -1,4 +1,18 @@
-import { diamond, buildRow, print, computeTopHalfEquivalentIndex } from ".";
+import { diamond, buildRow, print, computeTopHalfEquivalentIndex, middleLine } from ".";
+
+describe("test of middleLine()", () => {
+  test("Dimension 1", () => {
+    expect(middleLine(1)).toEqual(0);
+  });
+
+  test("Dimension 3", () => {
+    expect(middleLine(3)).toEqual(1);
+  });
+
+  test("Dimension 5", () => {
+    expect(middleLine(5)).toEqual(2);
+  });
+});
 
 describe("Test of buildRow() function", function () {
   test("Dimension 1, middle line", function () {

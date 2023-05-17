@@ -1,4 +1,4 @@
-# js-kata-starter
+# recursive-diamond
 
 Starter project for kata (Node, TypeScript, Jest)
 
